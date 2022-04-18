@@ -8,7 +8,7 @@ const Calls = () => {
     return (
         <div className="calls-container">
             <Header />
-            <div className="call-body">
+            <div className="calls-body">
                 <div className="calls-sidebar">
                     <Sidebar />
                 </div>
