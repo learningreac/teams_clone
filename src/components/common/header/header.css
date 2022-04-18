@@ -1,0 +1,30 @@
+.header{
+    width:100%;
+    display: flex;
+    background-color: #464775;
+    color:white;
+    flex:1;
+    padding:6px 0px; /* top 6 right 0 bottom 6 left 0*/
+}
+
+.header-menu{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.header-leftFold{
+    display: flex;
+    flex:3;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-rightFold{
+    display: flex;
+    flex:11;
+    justify-content: space-between;
+    align-items: center;
+}

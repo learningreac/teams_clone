@@ -1,7 +1,17 @@
+import './header.css';
+
 const Header = () => {
     return (
-        <div>
-            This is the Header.
+        <div className='header'>
+            <div className='header-menu'>
+                menu.
+            </div>
+            <div className='header-leftFold'>
+                header leftfold
+            </div>
+            <div className='header-rightFold'>
+                header rightfold
+            </div>
         </div>
     )
 };
