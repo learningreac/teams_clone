@@ -3,18 +3,19 @@ import Sidebar from "../common/sidebar";
 import LeftFold from "./left-fold/index";
 import RightFold from "./right-fold";
 
+import "./calls.css"
 const Calls = () => {
     return (
-        <div>
+        <div className="calls-container">
             <Header />
-            <div>
-                <div>
+            <div className="call-body">
+                <div className="calls-sidebar">
                     <Sidebar />
                 </div>
-                <div>
+                <div className="calls-leftFold">
                     <LeftFold />
                 </div>
-                <div>
+                <div className="calls-rightFold">
                     <RightFold />
                 </div>
             </div>

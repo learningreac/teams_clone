@@ -1,0 +1,29 @@
+.calls-container{
+    width:100%;
+    height: 100vh;
+    background-color: gray;
+}
+
+.calls-body{
+    display: flex;
+    width:100%;
+    flex:1;
+    height:94%;
+    background-color: white;
+}
+
+.calls-sidebar{
+   display: flex; 
+   flex:1;
+   background-color: lightblue;
+}
+
+.calls-leftFold{
+    display: flex;
+    flex:3;
+}
+
+.calls-rightFold{
+    display: flex;
+    flex:11;
+}
