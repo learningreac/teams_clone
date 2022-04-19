@@ -55,3 +55,19 @@
     color:#464775;
     outline: none;
 }
+.header-profile{
+    display: flex;
+    flex:4;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 6px;
+}
+
+.header-avatar {
+    height: 32px;
+}
+
+.header-options {
+    font-size: 28px;
+    margin-right:16px
+}
