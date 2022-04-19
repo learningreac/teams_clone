@@ -1,16 +1,23 @@
 import './header.css';
+import { MdDashboard } from 'react-icons/md';
+import {GoSearch} from 'react-icons/go'
+
 
 const Header = () => {
     return (
         <div className='header'>
             <div className='header-menu'>
-                menu.
+                <MdDashboard />
             </div>
             <div className='header-leftFold'>
-                header leftfold
+                <label className='header-label'>Microsoft Teams </label>
             </div>
             <div className='header-rightFold'>
-                header rightfold
+               <div className='header-search'>
+                    <GoSearch />
+                    <input placeholder='search'/>
+                    
+               </div>
             </div>
         </div>
     )
