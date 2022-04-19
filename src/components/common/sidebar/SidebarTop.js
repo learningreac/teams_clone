@@ -8,6 +8,8 @@ const SidebarTop = ({handleOptionClick}) => {
     //const classList = isActive? "sidebar-option active" : "sidebar-option";
     // to do add isActive
 
+   // className = {self defines => which return the className}
+
 
     return (
         <div className="sidebar-top" onClick={handleOptionClick}>
