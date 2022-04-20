@@ -1,3 +1,5 @@
+import DialerItem from "./DialerItem";
+import {dialerlistdata} from '../../../data/calls.js';
 
 
 const DialerList = () => {
@@ -5,7 +7,7 @@ const DialerList = () => {
         <div className="dialer-suggested">
             <label className="suggested-label">Suggested</label>
             <div className="suggested-list">
-                
+               {dialerlistdata.map(item => <DialerItem item={item}/>)}
             </div>
         </div>
     )
