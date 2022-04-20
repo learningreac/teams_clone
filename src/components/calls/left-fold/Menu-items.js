@@ -1,12 +1,15 @@
 import { MdOutlinePhoneAndroid } from 'react-icons/md';
 import { RiContactsLine } from 'react-icons/ri';
-import { GrHistory } from 'react-icons/gr';
 import { FiVoicemail } from 'react-icons/fi';
+import {VscHistory} from 'react-icons/vsc'
+
+import './menu-item.css';
 
 
-const Menu = () => {
+// to do is active
+const MenuItems = () => {
     return (
-        <>
+        <div className='menu-items'>
             <div className="menu-item" id='dial'>
                 <MdOutlinePhoneAndroid className='item-icon' />
                 <label className="item-label"> Speed Dial</label>
@@ -16,7 +19,7 @@ const Menu = () => {
                 <label className="item-label"> Contacts</label>
             </div>
             <div className="menu-item" id='history'>
-                <GrHistory className='item-icon' />
+                <VscHistory className='item-icon' />
                 <label className="item-label"> History</label>
             </div>
             <div className="menu-item" id='viocemail'>
@@ -24,8 +27,8 @@ const Menu = () => {
                 <label className="item-label"> Voicemail</label>
             </div>
 
-        </>
+        </div>
     )
 };
 
-export default Menu;
+export default MenuItems;

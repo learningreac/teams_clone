@@ -1,12 +1,13 @@
 import './left-fold.css';
-import Menu from './Menu';
+import MenuItems from './Menu-items';
+import DialerList from './DialerList';
 
 const LeftFold = () => {
     return (
         <div className='leftfold'>
             <div className='leftfold-menu'>
                 <label className='menu-label'>Calls</label>
-                <Menu />
+                <MenuItems />
             </div>
             <div className='leftfold-dialer'>
                 <label className='dialer-label'> Suggested </label>
@@ -14,6 +15,7 @@ const LeftFold = () => {
             <div className='dialer-search'>
                 <input placeholder='Type a name' />
             </div>
+            <DialerList />
         </div>
     )
 };
