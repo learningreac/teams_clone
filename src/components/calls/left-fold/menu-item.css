@@ -4,6 +4,8 @@
     align-items: center;
 }
 
+
+
 .item-label{
     font-size: 16px;
     font-weight: 300;
@@ -18,4 +20,8 @@
 
 .item-active{
     background-color: #f3efea;
+}
+
+.menu-item:hover {
+    color:#6264a7;
 }
