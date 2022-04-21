@@ -2,7 +2,7 @@ import './header.css';
 import { MdDashboard } from 'react-icons/md';
 import { GoSearch } from 'react-icons/go';
 import { FaUserAstronaut } from 'react-icons/fa';
-import { BsThreeDots } from 'react-icons/bs'
+import { BsThreeDots } from 'react-icons/bs';
 //import { IconContext } from 'react-icons';
 
 const Header = () => {
