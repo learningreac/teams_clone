@@ -3,7 +3,7 @@
    background-color: #ebebeb;
    box-shadow: 5px 0px 6px #dbdbdb, -5px 0px 6px #dbdbdb;
    width:100%;
-   z-index:-1 
+   /*z-index:-1 form input not working if apply this*/ 
 }
 
 .leftfold-menu {
@@ -22,12 +22,13 @@
    margin-top:16px;
 }
 
-menu-label{
+.menu-label{
    font-weight: 700;
    font-size: 20px;
+   color:#616161;
 }
 
-dialer-label{
+.dialer-label{
    font-weight: 600;
    color:#616161;
    font-size: 20px;
@@ -43,5 +44,37 @@ dialer-label{
    background-color:transparent;
    border:none;
    outline: none;
-   padding:8px
+   padding:8px;
+}
+
+.dialer-suggested {
+   width:100%
+}
+
+.suggested-label{
+   font-size:16px;
+   font-weight: 400;
+   color:#616161
+}
+
+.suggested-list {
+   width:100%;
+   margin-top: 6px;
+}
+
+.dialer-bottom {
+   position: absolute;
+   bottom: 16px;
+   display: flex;
+   width:90%;
+   justify-content: center;
+}
+
+.dialer-bottom-icon {
+   background-color: #ebebeb;
+   padding:8px;
+   height:20px;
+   border-radius: 50%;
+   margin:0px 4px;
+   color:#b0b0b0
 }

@@ -13,14 +13,14 @@ const LeftFold = () => {
             </div>
             <div className='leftfold-dialer'>
                 <label className='dialer-label'> Make a call </label>
-            </div>
-            <div className='dialer-search'>
-                <input placeholder='Type a name' />
-            </div>
-            <DialerList />
-            <div className='dialer-bottom'>
-                <HiOutlineMicrophone  className='dialer-bottom-icon' />
-                <MdOutlineSlowMotionVideo className='dialer-bottom-icon' />
+                <div className='dialer-search'>
+                    <input placeholder='Type a name' />
+                </div>
+                <DialerList />
+                <div className='dialer-bottom'>
+                    <HiOutlineMicrophone className='dialer-bottom-icon' />
+                    <MdOutlineSlowMotionVideo className='dialer-bottom-icon' />
+                </div>
             </div>
         </div>
     )
