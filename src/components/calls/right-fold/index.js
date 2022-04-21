@@ -22,7 +22,7 @@ const RightFold = () => {
                 </div>
             </div>
             <div className='contact-list'>
-                {contacts.map(item => <ContactCard item={item} />)}
+                {contacts.map(item => <ContactCard key={item.id} item={item} />)}
             </div>
         </div>
     )

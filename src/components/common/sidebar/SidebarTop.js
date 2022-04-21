@@ -2,7 +2,7 @@ import { FaRegBell, FaTasks, FaRegCalendarAlt, FaHeadphonesAlt, FaRegFile } from
 import { BsChatRightText } from 'react-icons/bs';
 import { FiUsers } from 'react-icons/fi';
 import { BsThreeDots } from 'react-icons/bs'
-
+import { Link } from "react-router-dom";
 
 const SidebarTop = ({handleOptionClick}) => {
     //const classList = isActive? "sidebar-option active" : "sidebar-option";
