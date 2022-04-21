@@ -59,3 +59,10 @@
 .contact-search-icon {
     color:#d0d0d0
 }
+
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content: flex-start;
+}
