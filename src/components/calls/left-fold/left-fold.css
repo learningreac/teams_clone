@@ -4,6 +4,7 @@
    box-shadow: 5px 0px 6px #dbdbdb, -5px 0px 6px #dbdbdb;
    width:100%;
    /*z-index:-1 form input not working if apply this*/ 
+   z-index:1  /* me: only apply z-index for the leftfold, remove the setting for other parts*/
 }
 
 .leftfold-menu {
