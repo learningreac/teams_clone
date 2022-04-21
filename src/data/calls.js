@@ -2,12 +2,12 @@ export const dialerlistdata = [
     {
         id:1,
         name:"Mike Maligan",
-        type:"Student"
+        type:"Engineer"
     },
     {
         id:2,
         name:"Nancy Anderson",
-        type:"Teacher"
+        type:"Librarian"
     },
     {
         id:3,
