@@ -18,6 +18,10 @@
  
 }
 
+.calls-page{
+    display: flex;
+}
+
 .calls-leftFold{
     display: flex;
     flex:3;

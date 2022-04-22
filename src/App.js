@@ -1,9 +1,24 @@
 import './App.css';
 import Calls from './components/calls';
 
+import {
+  Routes,
+  Route,
+  Link,
+  Outlet,
+} from "react-router-dom";
+import Layout from './components/common/Layout';
+
+
 function App() {
   return (
-    <Calls />
+  
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route path="/calls" element={<Calls />} ></Route>
+        </Route>
+      </Routes>
+
   );
 }
 
